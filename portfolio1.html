@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TARAK</title>
+    <link rel="stylesheet" href="portfolio1.css">
+    <script src="https://kit.fontawesome.com/87c3caee26.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div id="dynamicText" class="logo">TARAK PORTFOLIO</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="photo">
+                <img src="" alt="">
+            </div>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm  <span>Tarak</span><br>from Bharath university</h1>
+                
+            </div>
+        </div>
+    </div>
+    <div id="about"></div>
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="tarak2.jpg">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a web developer who loves building websites that looks great and work smoothly.
+                     I use coding languages like HTML, CSS, and JavaScript to create websites 
+                     that are both visually appealing and user-friendly.
+                      I enjoy combining creativity with technical skills to make sure every project I work on is top-notch.</p>
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML,CSS,JAVASCRIPT</span><br>Designing Web/App interfaces</li>
+                            <li><span>App developer</span><br>Develop's the app interfaces</li>
+                            <li><span>PYTHON</span><br>Designing backend using python </li>
+                            <li><span>video Editing</span><br>Designing and editing videos</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-Current</span><br>Training at NXTWAVE</li>
+                            <li><span>2023-2024</span><br>Intenship at AICTE</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Btech at Bharath institute of higher Education and research</li>
+                            <li><span>2024-current</span><br>Training at NXTWAVE</li>
+                            <li><span>2023-2024</span><br>Intenship at AICTE</li>
+                        </ul>
+                      
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------services------------->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="Services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I'm a web developer who loves to develop web applications using the codeing languages like
+                    HTML,CSS and JAVASCRIPT for frontend and backend.
+                I use coding languages like HTML, CSS, and JavaScript</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>App Design</h2>
+                <p>I'm a web developer who loves building websites that look great and work smoothly.
+                I use coding languages like HTML, CSS, and JavaScript</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>video Design</h2>
+                <p>I'm a web developer who loves building websites that look great and work smoothly.
+                I use coding languages like HTML, CSS, and JavaScript</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="app.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="web.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="video.jpg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------- skills------------>
+<div class="skills">
+    <h1>My Skills</h1>
+    <li><h3>HTML</h3>
+    <span class="bars"><span class="html"></span></span>
+    </li>
+    <li><h3>CSS</h3>
+    <span class="bars"><span class="css"></span></span>
+    </li>
+    <li><h3>JAVASCRIPT</h3>
+    <span class="bars"><span class="JavaScript"></span></span>
+    </li>
+    <li><h3>PYTHON</h3>
+    <span class="bars"><span class="python"></span></span>
+    </li>
+</div>
+<!-----------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" >Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>tarakeshtarak118@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8074522471</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Tara-kesh/tracker"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_t_a_r_a_k___/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="linkedin.com/in/tarakesh-tarak-680428257"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Resume3.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder=" Name" required >
+                    <input type="email" name="email" placeholder= "Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Send Message</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>
+             Copyright <i class="fa-solid fa-copyright"></i> @ TARAK .All rights reserved.
+        </p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxXvxqExc4y_6OXxffqOndTstupxfRaLAeJkMoyeBIcy9ld0KZEWgDRHWD0-e7JGX1QLw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully !"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000 )
+                form.reset()
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+        const textToDisplay = "TARAK";
+    
+
+        function displayText(index) {
+            if (index <= textToDisplay.length) {
+                document.getElementById("dynamicText").innerHTML = textToDisplay.substring(0, index);
+                setTimeout(function () {
+                    displayText(index + 1);
+                }, 250);
+            }
+        }
+        window.onload = function () {
+            displayText(0);
+        };
+    </script>
+</body>
+</html>
